@@ -1,0 +1,20 @@
+.code-container {
+  background-color: #1b8fef;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto; // scroll horizontal se o código for muito longo
+
+  pre {
+    margin: 0;
+    white-space: pre-wrap; // quebra de linha automática
+    word-break: break-word;
+  }
+
+  code {
+    display: block;
+  }
+}
